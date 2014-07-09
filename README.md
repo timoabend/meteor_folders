@@ -1,10 +1,10 @@
-general order files are being processed in a directory
+##General order files are being processed in a directory
 1. lib/
 2. subdirectories
 2. files in alphabetical order
 3. main.*
 
-Files being loaded in order
+##Files being loaded in order
 1. private/*.js loaded into Node.js
 2. *.js except client/ public/ private/
 3. private/*.* loaded and available via Assets-API
@@ -12,6 +12,8 @@ Files being loaded in order
 5. *.css
 6. *.html -> scan for head, body, template
 
+##Folders
+```
 .
 |-private				files being loaded into Node.js, available via Assets-API
 |-public				images, favicon.ico, robots.txt, ..
@@ -19,3 +21,4 @@ Files being loaded in order
 |-client				only available in client-scope
 |  |-compatibility		loaded into global scope of client
 |-test					files from folder test are not being loaded
+```
