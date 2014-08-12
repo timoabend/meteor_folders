@@ -1,5 +1,9 @@
 #Folder-Skeleton for Meteor.js
 ##With explanation and processing-order of files 
+Source: [Meteor Documentation](http://docs.meteor.com/#structuringyourapp), 
+Version 
+* 8.2
+* 8.3
 
 ####Folders
 ```
