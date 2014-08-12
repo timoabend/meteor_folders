@@ -2,8 +2,8 @@
 ##With explanation and processing-order of files 
 Source: [Meteor Documentation](http://docs.meteor.com/#structuringyourapp), 
 Version 
-* 8.2
-* 8.3
+* 0.8.2
+* 0.8.3
 
 ####Folders
 ```
